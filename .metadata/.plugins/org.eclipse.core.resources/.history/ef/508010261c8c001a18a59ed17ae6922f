@@ -1,0 +1,12 @@
+package com.brunosouza.loja.service;
+
+import com.brunosouza.loja.controller.dto.compraDTO;
+
+public class CompraService {
+
+	public void realizarCompra(compraDTO compra) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

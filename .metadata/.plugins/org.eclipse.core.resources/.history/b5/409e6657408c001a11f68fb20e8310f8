@@ -1,0 +1,6 @@
+package com.brunosouza.fornecedor.model;
+
+@Entity
+public class InfoFornecedor {
+
+}

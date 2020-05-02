@@ -1,0 +1,9 @@
+package com.brunosouza.loja.controller.dto;
+
+import java.util.List;
+
+public class compraDTO {
+	
+	private List<ItemDaCompraDTO> itens;
+
+}

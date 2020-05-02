@@ -1,0 +1,7 @@
+package com.brunosouza.fornecedor.controller;
+
+@RestController
+@RequestMapping("/info")
+public class InfoController {
+
+}

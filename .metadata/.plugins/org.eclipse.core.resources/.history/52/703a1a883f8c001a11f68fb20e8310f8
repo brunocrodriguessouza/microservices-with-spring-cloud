@@ -1,0 +1,6 @@
+package com.brunosouza.fornecedor.repository;
+
+@Repository
+public class InfoRepository {
+
+}

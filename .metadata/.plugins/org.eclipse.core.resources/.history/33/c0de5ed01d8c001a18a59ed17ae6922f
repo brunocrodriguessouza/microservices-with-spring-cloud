@@ -1,0 +1,20 @@
+package com.brunosouza.loja.service;
+
+import org.springframework.http.HttpMethod;
+import org.springframework.web.client.RestTemplate;
+
+import com.brunosouza.loja.controller.dto.InfoFornecedorDTO;
+import com.brunosouza.loja.controller.dto.compraDTO;
+
+public class CompraService {
+
+	public void realizarCompra(compraDTO compra) {
+		
+		RestTemplate client = new RestTemplate();
+		ResponseEntidy<InfoFornecedorDTO> exchange = 
+		client.exchange("http://localhost:8081/info/"+compra.getEndereco().getEstado(), 
+				HttpMethod.GET, null, InfoFornecedorDTO.class);
+		
+	}
+
+}

@@ -1,0 +1,5 @@
+package com.brunosouza.fornecedor.model;
+
+public class InfoFornecedor {
+
+}

@@ -1,0 +1,6 @@
+package com.brunosouza.fornecedor.controller;
+
+@RestController
+public class InfoController {
+
+}

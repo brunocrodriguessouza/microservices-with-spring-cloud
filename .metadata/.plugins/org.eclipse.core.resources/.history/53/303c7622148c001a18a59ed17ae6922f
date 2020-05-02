@@ -1,0 +1,6 @@
+package com.brunosouza.loja.controller;
+
+@RestController
+public class CompraController {
+
+}

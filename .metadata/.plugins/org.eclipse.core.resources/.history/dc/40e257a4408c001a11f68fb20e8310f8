@@ -1,0 +1,12 @@
+package com.brunosouza.fornecedor.model;
+
+import javax.persistence.Entity;
+import javax.persistence.GenerationType;
+
+@Entity
+public class InfoFornecedor {
+
+	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	private Long id;
+}

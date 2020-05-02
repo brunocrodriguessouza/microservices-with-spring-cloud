@@ -1,0 +1,5 @@
+package com.brunosouza.loja.controller.dto;
+
+public class EnderecoDTO {
+
+}
