@@ -6,4 +6,5 @@ spring:
     config:
       server:
         git:
-          search-locations: /home/bruno/microservicesproject/microservice-repo
+          uri: https://github.com/brunocrodriguessouza/microservice-repo/
+          search-paths: fornecedor
