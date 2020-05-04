@@ -1,7 +1,7 @@
 package com.brunosouza.loja.controller.dto;
 
 public class ItemDaCompraDTO {
-	
+
 	private long id;
 	
 	private int quantidade;
@@ -21,5 +21,6 @@ public class ItemDaCompraDTO {
 	public void setQuantidade(int quantidade) {
 		this.quantidade = quantidade;
 	}
-
+	
+	
 }
